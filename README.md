@@ -1,5 +1,7 @@
 # linkedin-mcp-inbox-zero-triage
 
+> **Part of the [AI SDR Kit](https://github.com/zevarihq/ai-sdr-kit), the open-source AI SDR harness.** Install the kit to give your agent the whole outbound playbook (setup SOP and every LinkedIn and email sequence), then run this play on top of it.
+
 A Claude Code prompt I run every 30 minutes against my Gmail inbox. Every unread email gets classified by **who's actually emailing me** (LinkedIn-confirmed via the LinkedIn MCP) — not by what their subject line looks like. Buying signals get drafted + Slack-pinged. Cold pitches get archived. Customers get routed. Newsletters get crushed.
 
 Sharing it because the "AI inbox" category is full of tools that classify on bayesian sender history and subject-line vibes. None of them know the sender is the VP of Ops at a Series B in my ICP. That's the gap.
